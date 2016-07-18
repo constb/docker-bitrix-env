@@ -10,7 +10,7 @@ This container is mostly based on [ewok/bitrix-env](https://github.com/ewok/dock
 although the image size is smaller (1.6G => 0.9G), legacy stuff is removed, added capability to run
 in daemonized mode (`-d`) with no tty
 
-#Ports
+## Ports
 
 Ports that must be exposed in production environment are *80*, *443* for HTTP/HTTPS and *8893*, *8894*
 for push notifications
