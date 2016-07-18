@@ -43,4 +43,4 @@ Container will shutdown gracefully when `docker stop` is issued
 
 ## Complete example
 
-`docker run -d --name mysite -p 80:80 -p 2222:22 -p 443:443 -p 8893:8893 -p 8894:8894 -v /home/user/projects/mysite:/home/bitrix/www -e BVAT_MEM=524288 -e TIMEZONE="Asia/Novosibirsk" constb/docker-bitrix-env`
+`docker run -d --name mysite -p 80:80 -p 2222:22 -p 443:443 -p 8893:8893 -p 8894:8894 -v /home/user/projects/mysite:/home/bitrix/www -e BVAT_MEM=524288 -e TIMEZONE="Asia/Novosibirsk" constb/bitrix-env`
